@@ -1,0 +1,68 @@
+/* Custom Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #0047ab;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #0047ab;
+}
+
+header {
+    background-image: url('https://via.placeholder.com/1920x600');
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+    background-color: #0047ab;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #00338d;
+}
+
+#cta {
+    background-color: #0047ab;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-body h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #0047ab;
+}
+
+/* Footer Styles */
+footer {
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
