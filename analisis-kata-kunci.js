@@ -7,7 +7,7 @@ document.getElementById('analyze-btn').addEventListener('click', function () {
 
     // API Key dari SERPstack (masukkan API Key Anda)
     const apiKey = '79564a1eae72b2e278640126a57dbe90';
-    const url = `http://api.serpstack.com/search?access_key=${apiKey}&query=${keyword}`;
+    const url = `https://api.serpstack.com/search?access_key=${apiKey}&query=${keyword}`;
 
     // Lakukan request ke SERPstack API menggunakan Fetch
     fetch(url)
